@@ -15,7 +15,7 @@
 							<p class="works-text">Vue.jsでポートフォリオサイトを作成しました。</p>
 							<p class="works-language">HTML/CSS/Bootstrap5/Vue.js</p>
 							<div class="text-center">
-								<a href="https://github.com/kaz1877/portfolio.git" >githubへ</a>
+								<a href="https://github.com/kaz1877/vue-portfolio.git" >githubへ</a>
 							</div>
 						</div>
 					</div>
