@@ -10,6 +10,5 @@ module.exports = {
     }
   },
   outputDir: 'docs',
-  assetsDir: './',
-  publicPath: './',
+  publicPath: '/vue-portfolio',
 }
