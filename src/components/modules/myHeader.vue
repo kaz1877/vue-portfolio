@@ -11,25 +11,25 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <router-link class="nav-link" to="/profile">
-                                <font-awesome-icon icon="user" />
+                                <font-awesome-icon :icon="['fas','user']" />
                                 About
                             </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/works">
-                                <font-awesome-icon icon="folder-open" />
+                                <font-awesome-icon :icon="['fas','folder-open']" />
                                 Works
                             </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/skill">
-                                <font-awesome-icon icon="database" />
+                                <font-awesome-icon :icon="['fas','database']" />
                                 Skill
                             </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/contact">
-                                <font-awesome-icon icon="comment" />
+                                <font-awesome-icon :icon="['fas','comment']" />
                                 Contact
                             </router-link>
                         </li>

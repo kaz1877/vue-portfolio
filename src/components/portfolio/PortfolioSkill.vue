@@ -2,7 +2,7 @@
     <div class="container my-4 px-3">
         <div class="text-center">
             <h1>
-                <font-awesome-icon icon="database" />
+                <font-awesome-icon :icon="['fas','database']" />
                 My Skill
             </h1>
         </div>

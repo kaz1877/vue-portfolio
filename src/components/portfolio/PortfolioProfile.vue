@@ -1,7 +1,7 @@
 <template>
     <div class="container my-4 px-3">
         <h1 class="text-center">
-            <font-awesome-icon icon="user" />
+            <font-awesome-icon :icon="['fas','user']" />
             About me
         </h1>
         <div class="row mt-5">
@@ -20,10 +20,14 @@
                                         業務の中でIT技術に触れていくうちに、仕事として携わって行きたいと思い転職を決意。<br/>
                                         直近ではバックエンドを中心に勉強中です。
                                     </p>
-                                    <p>
-                                        -GitHub: <a href="https://github.com/kaz1877">https://github.com/kaz1877</a><br/>
-                                        -Twitter: <a href="https://twitter.com/kazengineer0502">https://twitter.com/kazengineer0502</a>
-                                    </p>
+                                    <div>
+                                        <a href="https://github.com/kaz1877" >
+                                            <font-awesome-icon :icon="['fab','github']" size="2x" class="px-4"/>
+                                        </a>
+                                        <a href="https://twitter.com/kazengineer0502">
+                                            <font-awesome-icon :icon="['fab','twitter']" size="2x" class="px-4"/>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

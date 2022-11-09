@@ -2,7 +2,7 @@
 		<div class="container my-4 px-3">
             <div class="text-center">
                 <h1>
-                    <font-awesome-icon icon="folder-open" />
+                    <font-awesome-icon :icon="['fas','folder-open']" />
                     Works
                 </h1>
             </div>

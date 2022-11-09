@@ -2,7 +2,7 @@
     <div class="container my-4 px-3">
         <div class="section-title-block" style="text-align: center;">
             <h1 class="mb-4">
-                <font-awesome-icon icon="comment" />
+                <font-awesome-icon :icon="['fas','comment']" />
                 Contact
             </h1>
             <p>何かありましたら、下記TwitterにDMする形でお気軽にご連絡ください！</p>
