@@ -10,7 +10,7 @@
         <div class="contact-wrapper">
             <div class="contact-list">
                 <a href="https://twitter.com/kazengineer0502">
-                    <img src="../../assets/twitter_icon1.png" class="rounded-circle border border-dark" alt="contact-img"/>
+                    <img src="../../assets/twitter_icon1.png" class="rounded-circle border border-dark" alt="contact-image"/>
                     <span class="contact-list-span">Twitter</span>
                 </a>
             </div>

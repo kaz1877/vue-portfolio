@@ -4,6 +4,7 @@ import PortfolioProfile from '@/components/portfolio/PortfolioProfile.vue'
 import PortfolioSkill from '@/components/portfolio/PortfolioSkill.vue'
 import PortfolioWorks from '@/components/portfolio/PortfolioWorks.vue'
 import PortfolioContact from '@/components/portfolio/PortfolioContact.vue'
+import NotFoundError from '@/components/NotFoundError.vue'
 
 
 const routes = [
@@ -31,7 +32,12 @@ const routes = [
         path: '/contact',
         name: 'portfolioContact',
         component: PortfolioContact,
-    }
+    },
+    {
+        path: '/:catchAll(.*)',
+        name: 'NotFoundError',
+        component: NotFoundError,
+    },
 ]
 
 const router = createRouter({
