@@ -10,7 +10,7 @@
                     <div class="row mt-2">
                         <h3 class="card-title my-2">Profile</h3>
                         <div class="col-12 col-md-4">
-                            <img src="../../assets/017c44c97a38c1c4999681e28c39271d.jpg"  class="rounded-circle align-middle" />
+                            <img src="../../assets/twitter_icon1.png"  class="rounded-circle align-middle" />
                         </div>
                         <div class="col-12 col-md-8">
                             <div class="card-body">
